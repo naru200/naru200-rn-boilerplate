@@ -1,5 +1,6 @@
 package com.naru200rnboilerplate;
 
+import android.os.Bundle;
 import com.facebook.react.ReactActivity;
 
 public class MainActivity extends ReactActivity {
@@ -11,5 +12,14 @@ public class MainActivity extends ReactActivity {
   @Override
   protected String getMainComponentName() {
     return "Naru200RNBoilerplate";
+  }
+
+  /**
+   * For react-navigation initialize
+   * ref => https://reactnavigation.org/docs/6.x/getting-started
+   */
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(null);
   }
 }
