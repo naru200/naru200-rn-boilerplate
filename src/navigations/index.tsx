@@ -1,13 +1,17 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from 'react-native-screens/native-stack';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const AppStack = createNativeStackNavigator();
 
 const AppNavigation: React.FC = () => {
   return (
     <NavigationContainer>
-      <AppStack.Navigator headerMode="none">
+      <AppStack.Navigator
+        screenOptions={{
+          headerShown: false,
+          animation: 'fade',
+        }}>
         {/* Main Navigator */}
       </AppStack.Navigator>
     </NavigationContainer>
