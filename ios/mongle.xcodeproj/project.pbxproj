@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* Naru200RNBoilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Naru200RNBoilerplateTests.m */; };
+		00E356F31AD99517003FC87E /* mongleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mongleTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C3E2E412AD28143FF746D832 /* libPods-Naru200RNBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A060D346EBCCA233FF78F5 /* libPods-Naru200RNBoilerplate.a */; };
-		CFBC58726D979CFEAFE3E032 /* libPods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD6E660A9FB2FF6F533784B /* libPods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.a */; };
+		C3E2E412AD28143FF746D832 /* libPods-mongle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A060D346EBCCA233FF78F5 /* libPods-mongle.a */; };
+		CFBC58726D979CFEAFE3E032 /* libPods-mongle-mongleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD6E660A9FB2FF6F533784B /* libPods-mongle-mongleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,28 +22,28 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Naru200RNBoilerplate;
+			remoteInfo = mongle;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* Naru200RNBoilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Naru200RNBoilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* mongleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mongleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* Naru200RNBoilerplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Naru200RNBoilerplateTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Naru200RNBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Naru200RNBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Naru200RNBoilerplate/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Naru200RNBoilerplate/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Naru200RNBoilerplate/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Naru200RNBoilerplate/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Naru200RNBoilerplate/main.m; sourceTree = "<group>"; };
-		211690D698C21FD43167441E /* Pods-Naru200RNBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naru200RNBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-Naru200RNBoilerplate/Pods-Naru200RNBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
-		317B3120006A6BD46EC22DF4 /* Pods-Naru200RNBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naru200RNBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-Naru200RNBoilerplate/Pods-Naru200RNBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
-		3FD6E660A9FB2FF6F533784B /* libPods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Naru200RNBoilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		88F32563D95C2D7492C95E4A /* Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
-		C36CF4A5027A757057445F50 /* Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* mongleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mongleTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* mongle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mongle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mongle/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = mongle/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mongle/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mongle/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mongle/main.m; sourceTree = "<group>"; };
+		211690D698C21FD43167441E /* Pods-mongle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mongle.debug.xcconfig"; path = "Target Support Files/Pods-mongle/Pods-mongle.debug.xcconfig"; sourceTree = "<group>"; };
+		317B3120006A6BD46EC22DF4 /* Pods-mongle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mongle.release.xcconfig"; path = "Target Support Files/Pods-mongle/Pods-mongle.release.xcconfig"; sourceTree = "<group>"; };
+		3FD6E660A9FB2FF6F533784B /* libPods-mongle-mongleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mongle-mongleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mongle/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88F32563D95C2D7492C95E4A /* Pods-mongle-mongleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mongle-mongleTests.release.xcconfig"; path = "Target Support Files/Pods-mongle-mongleTests/Pods-mongle-mongleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C36CF4A5027A757057445F50 /* Pods-mongle-mongleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mongle-mongleTests.debug.xcconfig"; path = "Target Support Files/Pods-mongle-mongleTests/Pods-mongle-mongleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F3A060D346EBCCA233FF78F5 /* libPods-Naru200RNBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Naru200RNBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A060D346EBCCA233FF78F5 /* libPods-mongle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mongle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFBC58726D979CFEAFE3E032 /* libPods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.a in Frameworks */,
+				CFBC58726D979CFEAFE3E032 /* libPods-mongle-mongleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E2E412AD28143FF746D832 /* libPods-Naru200RNBoilerplate.a in Frameworks */,
+				C3E2E412AD28143FF746D832 /* libPods-mongle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* Naru200RNBoilerplateTests */ = {
+		00E356EF1AD99517003FC87E /* mongleTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* Naru200RNBoilerplateTests.m */,
+				00E356F21AD99517003FC87E /* mongleTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = Naru200RNBoilerplateTests;
+			path = mongleTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Naru200RNBoilerplate */ = {
+		13B07FAE1A68108700A75B9A /* mongle */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Naru200RNBoilerplate;
+			name = mongle;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				F3A060D346EBCCA233FF78F5 /* libPods-Naru200RNBoilerplate.a */,
-				3FD6E660A9FB2FF6F533784B /* libPods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.a */,
+				F3A060D346EBCCA233FF78F5 /* libPods-mongle.a */,
+				3FD6E660A9FB2FF6F533784B /* libPods-mongle-mongleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Naru200RNBoilerplate */,
+				13B07FAE1A68108700A75B9A /* mongle */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* Naru200RNBoilerplateTests */,
+				00E356EF1AD99517003FC87E /* mongleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				B42358682EA51F47474058AD /* Pods */,
@@ -131,8 +131,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Naru200RNBoilerplate.app */,
-				00E356EE1AD99517003FC87E /* Naru200RNBoilerplateTests.xctest */,
+				13B07F961A680F5B00A75B9A /* mongle.app */,
+				00E356EE1AD99517003FC87E /* mongleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,21 +140,20 @@
 		B42358682EA51F47474058AD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				211690D698C21FD43167441E /* Pods-Naru200RNBoilerplate.debug.xcconfig */,
-				317B3120006A6BD46EC22DF4 /* Pods-Naru200RNBoilerplate.release.xcconfig */,
-				C36CF4A5027A757057445F50 /* Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.debug.xcconfig */,
-				88F32563D95C2D7492C95E4A /* Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.release.xcconfig */,
+				211690D698C21FD43167441E /* Pods-mongle.debug.xcconfig */,
+				317B3120006A6BD46EC22DF4 /* Pods-mongle.release.xcconfig */,
+				C36CF4A5027A757057445F50 /* Pods-mongle-mongleTests.debug.xcconfig */,
+				88F32563D95C2D7492C95E4A /* Pods-mongle-mongleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* Naru200RNBoilerplateTests */ = {
+		00E356ED1AD99517003FC87E /* mongleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Naru200RNBoilerplateTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mongleTests" */;
 			buildPhases = (
 				4386044D4AEEBBDE44AAD529 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +167,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = Naru200RNBoilerplateTests;
-			productName = Naru200RNBoilerplateTests;
-			productReference = 00E356EE1AD99517003FC87E /* Naru200RNBoilerplateTests.xctest */;
+			name = mongleTests;
+			productName = mongleTests;
+			productReference = 00E356EE1AD99517003FC87E /* mongleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Naru200RNBoilerplate */ = {
+		13B07F861A680F5B00A75B9A /* mongle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Naru200RNBoilerplate" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mongle" */;
 			buildPhases = (
 				31729BBB5A1286107FE14BAF /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +189,9 @@
 			);
 			dependencies = (
 			);
-			name = Naru200RNBoilerplate;
-			productName = Naru200RNBoilerplate;
-			productReference = 13B07F961A680F5B00A75B9A /* Naru200RNBoilerplate.app */;
+			name = mongle;
+			productName = mongle;
+			productReference = 13B07F961A680F5B00A75B9A /* mongle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Naru200RNBoilerplate" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mongle" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Naru200RNBoilerplate */,
-				00E356ED1AD99517003FC87E /* Naru200RNBoilerplateTests */,
+				13B07F861A680F5B00A75B9A /* mongle */,
+				00E356ED1AD99517003FC87E /* mongleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,7 +279,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Naru200RNBoilerplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-mongle-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -302,7 +301,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-mongle-mongleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -315,15 +314,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Naru200RNBoilerplate/Pods-Naru200RNBoilerplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mongle/Pods-mongle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Naru200RNBoilerplate/Pods-Naru200RNBoilerplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mongle/Pods-mongle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Naru200RNBoilerplate/Pods-Naru200RNBoilerplate-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mongle/Pods-mongle-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		60C2F924175CCAD531C6AB5C /* [CP] Copy Pods Resources */ = {
@@ -332,15 +331,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mongle-mongleTests/Pods-mongle-mongleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mongle-mongleTests/Pods-mongle-mongleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mongle-mongleTests/Pods-mongle-mongleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		96309A34188A269C116F551F /* [CP] Embed Pods Frameworks */ = {
@@ -349,15 +348,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mongle-mongleTests/Pods-mongle-mongleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mongle-mongleTests/Pods-mongle-mongleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests/Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mongle-mongleTests/Pods-mongle-mongleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9E40992DDB6C21EA44B8202A /* [CP] Copy Pods Resources */ = {
@@ -366,15 +365,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Naru200RNBoilerplate/Pods-Naru200RNBoilerplate-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mongle/Pods-mongle-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Naru200RNBoilerplate/Pods-Naru200RNBoilerplate-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mongle/Pods-mongle-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Naru200RNBoilerplate/Pods-Naru200RNBoilerplate-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mongle/Pods-mongle-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -403,7 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* Naru200RNBoilerplateTests.m in Sources */,
+				00E356F31AD99517003FC87E /* mongleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +420,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Naru200RNBoilerplate */;
+			target = 13B07F861A680F5B00A75B9A /* mongle */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +428,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C36CF4A5027A757057445F50 /* Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.debug.xcconfig */;
+			baseConfigurationReference = C36CF4A5027A757057445F50 /* Pods-mongle-mongleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Naru200RNBoilerplateTests/Info.plist;
+				INFOPLIST_FILE = mongleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +449,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Naru200RNBoilerplate.app/Naru200RNBoilerplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mongle.app/mongle";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88F32563D95C2D7492C95E4A /* Pods-Naru200RNBoilerplate-Naru200RNBoilerplateTests.release.xcconfig */;
+			baseConfigurationReference = 88F32563D95C2D7492C95E4A /* Pods-mongle-mongleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = Naru200RNBoilerplateTests/Info.plist;
+				INFOPLIST_FILE = mongleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +473,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Naru200RNBoilerplate.app/Naru200RNBoilerplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mongle.app/mongle";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 211690D698C21FD43167441E /* Pods-Naru200RNBoilerplate.debug.xcconfig */;
+			baseConfigurationReference = 211690D698C21FD43167441E /* Pods-mongle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Naru200RNBoilerplate/Info.plist;
+				INFOPLIST_FILE = mongle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -496,8 +495,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Naru200RNBoilerplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mongle.mongle;
+				PRODUCT_NAME = mongle;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +505,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 317B3120006A6BD46EC22DF4 /* Pods-Naru200RNBoilerplate.release.xcconfig */;
+			baseConfigurationReference = 317B3120006A6BD46EC22DF4 /* Pods-mongle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Naru200RNBoilerplate/Info.plist;
+				INFOPLIST_FILE = mongle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,8 +520,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Naru200RNBoilerplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mongle.mongle;
+				PRODUCT_NAME = mongle;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +653,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Naru200RNBoilerplateTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mongleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +662,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Naru200RNBoilerplate" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mongle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +671,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Naru200RNBoilerplate" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mongle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

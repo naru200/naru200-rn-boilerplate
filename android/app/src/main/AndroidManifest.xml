@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.naru200rnboilerplate">
+  package="com.mongle.mongle">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

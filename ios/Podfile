@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'Naru200RNBoilerplate' do
+target 'mongle' do
   config = use_native_modules!
 
   use_react_native!(
@@ -12,7 +12,7 @@ target 'Naru200RNBoilerplate' do
     :hermes_enabled => false
   )
 
-  target 'Naru200RNBoilerplateTests' do
+  target 'mongleTests' do
     inherit! :complete
     # Pods for testing
   end

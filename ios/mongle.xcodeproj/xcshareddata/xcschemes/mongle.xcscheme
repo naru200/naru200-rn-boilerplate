@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Naru200RNBoilerplate.app"
-               BlueprintName = "Naru200RNBoilerplate"
-               ReferencedContainer = "container:Naru200RNBoilerplate.xcodeproj">
+               BuildableName = "mongle.app"
+               BlueprintName = "mongle"
+               ReferencedContainer = "container:mongle.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "Naru200RNBoilerplateTests.xctest"
-               BlueprintName = "Naru200RNBoilerplateTests"
-               ReferencedContainer = "container:Naru200RNBoilerplate.xcodeproj">
+               BuildableName = "mongleTests.xctest"
+               BlueprintName = "mongleTests"
+               ReferencedContainer = "container:mongle.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Naru200RNBoilerplate.app"
-            BlueprintName = "Naru200RNBoilerplate"
-            ReferencedContainer = "container:Naru200RNBoilerplate.xcodeproj">
+            BuildableName = "mongle.app"
+            BlueprintName = "mongle"
+            ReferencedContainer = "container:mongle.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Naru200RNBoilerplate.app"
-            BlueprintName = "Naru200RNBoilerplate"
-            ReferencedContainer = "container:Naru200RNBoilerplate.xcodeproj">
+            BuildableName = "mongle.app"
+            BlueprintName = "mongle"
+            ReferencedContainer = "container:mongle.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,4 +1,4 @@
-package com.naru200rnboilerplate;
+package com.mongle.mongle;
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;
@@ -11,7 +11,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "Naru200RNBoilerplate";
+    return "mongle";
   }
 
   /**
